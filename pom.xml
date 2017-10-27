@@ -9,7 +9,15 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <url>https://github.com/cuberact</url>
+    <name>cuberact-parent</name>
+    <description>Cuberact parent pom.</description>
+    <url>https://github.com/cuberact/cuberact-parent</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/cuberact/cuberact-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:cuberact/cuberact-parent.git</developerConnection>
+        <url>https://github.com/cuberact/cuberact-parent</url>
+    </scm>
 
     <developers>
         <developer>
