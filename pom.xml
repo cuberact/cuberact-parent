@@ -6,7 +6,7 @@
 
     <groupId>org.cuberact</groupId>
     <artifactId>cuberact-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>cuberact-parent</name>
@@ -126,16 +126,5 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
-
-    <profiles>
-        <profile>
-            <id>all</id>
-            <modules>
-                <module>../cuberact-json</module>
-                <module>../cuberact-maven-plugin</module>
-                <module>../cuberact-platform</module>
-            </modules>
-        </profile>
-    </profiles>
 
 </project>
